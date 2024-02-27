@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col dark:bg-background-800">
       {Navbar()}
-      <div className="font-semibold p-60 dark:text-text-100">
+      <div className="absolute mt-40 mr-40 font-semibold dark:text-text-100">
         <h2 className="text-6xl">
           <span className="">Hello</span>
           <span className="font-normal">, I'm </span>
